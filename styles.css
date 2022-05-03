@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding: 1rem;
+}
+
+div.container-principal {
+    width: 600px;
+    margin: 1rem auto;
+}
+
+div.container-post {
+    background-color: #ffffff;
+    border-radius: .5em;
+    margin-top: 2rem;
+    padding-bottom: 2px;
+}
+
+div.container-post div.post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+div.container-post div.post-header div:last-child {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    color: grey;
+}
+
+div.container-post h2,
+div.container-post p {
+    margin-left: 10px;
+}
+
+div.container-post p {
+    font-family: 'Patrick Hand', cursive;
+    margin-right: 10px;
+}
+
+.container-post div img {
+    width: 100%;
+    margin: 0;
+}
